@@ -1,2 +1,3 @@
 # -ahilynd-.github.io
-My First Repository 
+Ahilyn Dipre
+Pronouns: she/her
