@@ -45,18 +45,19 @@
 </div>  
 
 <div class="testing">
-          <button class="thumbsUp">Thumbs Up | <p class ="thumbsUpNum">0</p></button>
+          <button class="like">Like | <p class ="likeNum">0</p></button>
+
 </div>
 
-const getThumbsUp = document.querySelector('.thumbsUp');
-const getThumbsUpNum = document.querySelector('.thumbsUpNum');
+const getlike = document.querySelector('.like');
+const getLikepNum = document.querySelector('.likeNum');
 
-let thumbsUp = 0;
-increaseThumbsUp = () => {
-          thumbsUp++
-          getThumbsUpNum.innerHTML = '${thumbsUp}'
+let like = 0;
+increaseLike = () => {
+          like ++
+          getLikeNum.innerHTML = '${like}'
 }
-thumbsUpClick = () => {
-          increaseThumbsUp()
+likeClick = () => {
+          increaseLike()
 }
-getThumbsUp.addEventListener(('click'), thumbsUpClick)
+getLike.addEventListener(('click'), likeClick)
