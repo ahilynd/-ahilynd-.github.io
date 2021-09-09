@@ -48,5 +48,15 @@
           <button class="thumbsUp">Thumbs Up | <p class ="thumbsUpNum">0</p></button>
 </div>
 
-const getThumbsUp=document.querySelector('.thumbsUp');
-const getThumbsUpNum=document.querySelector('.thumbsUpNum');
+const getThumbsUp = document.querySelector('.thumbsUp');
+const getThumbsUpNum = document.querySelector('.thumbsUpNum');
+
+let thumbsUp = 0;
+increaseThumbsUp = () => {
+          thumbsUp++
+          getThumbsUpNum.innerHTML = '${thumbsUp}'
+}
+thumbsUpClick = () => {
+          increaseThumbsUp()
+}
+getThumbsUp.addEventListener(('click'), thumbsUpClick)
