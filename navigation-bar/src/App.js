@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import About from './pages/about';
+import ChangeLog from './pages/change log';
+import Contact from './pages/contact';
+import Movies from './pages/movies';
+import MyRepository from './pages/my repository';
+import Resources from './pages/resources';
+import ToDoLists from './pages/todo list';
 
 function App() {
   return (
