@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './pages/about';
@@ -10,7 +11,7 @@ import MyRepository from './pages/my repository';
 import Resources from './pages/resources';
 import ToDoLists from './pages/todo list';
 
-/*function App() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -32,7 +33,7 @@ import ToDoLists from './pages/todo list';
 }
 
 export default App;
-*/
+
 
 function App() {
   return (
