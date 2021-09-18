@@ -59,3 +59,22 @@ export const NavBtn = styled.nav`
         display: none;
     }
 `;
+
+export const NavBtnLink = styled(Link)`
+    border-radius: 4px;
+    background: 'black';
+    padding: 10px 20px;
+    color: 'white';
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin-left: 20px;
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: 'yellow';
+        color: 'green';
+    }
+
+`;
