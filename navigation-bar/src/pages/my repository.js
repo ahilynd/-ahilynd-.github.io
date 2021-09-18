@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 const MyRepository = () => {
     return (
@@ -16,3 +16,4 @@ const MyRepository = () => {
 };
 
 export default MyRepository;
+*/

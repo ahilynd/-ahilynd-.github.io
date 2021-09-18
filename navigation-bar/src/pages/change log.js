@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 
 const ChangeLog = () => {
     return (
@@ -16,3 +16,4 @@ const ChangeLog = () => {
 };
 
 export default ChangeLog;
+*/
