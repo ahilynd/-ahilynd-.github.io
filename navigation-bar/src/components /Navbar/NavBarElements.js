@@ -39,4 +39,23 @@ export const Bars = styled(FaBars)`
     }
 
 
-`
+`;
+
+export const NavMenu = styled.div`
+    display: flex;
+    align-items: centers;
+    margin-right: -20px;
+    white-space: nowrap; */
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+`;
+
+export const NavBtn = styled.nav`
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+`;
