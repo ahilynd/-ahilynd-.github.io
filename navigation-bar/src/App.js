@@ -10,7 +10,7 @@ import MyRepository from './pages/my repository';
 import Resources from './pages/resources';
 import ToDoLists from './pages/todo list';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -31,4 +31,23 @@ function App() {
   );
 }
 
+export default App;
+*/
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component={About} />
+        <Route path='/' exact component={ChangeLog} />
+        <Route path='/' exact component={Contact} />
+        <Route path='/' exact component={Movies} />
+        <Route path='/' exact component={MyRepository} />
+        <Route path='/' exact component={Resources} />
+        <Route path='/' exact component={ToDoLists} />
+      </Switch>
+    </Router>
+  );
+}
 export default App;
