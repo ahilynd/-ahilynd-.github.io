@@ -11,7 +11,7 @@ import MyRepository from './pages/my repository';
 import Resources from './pages/resources';
 import ToDoLists from './pages/todo list';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -33,6 +33,7 @@ function App() {
 }
 
 export default App;
+*/
 
 
 function App() {
