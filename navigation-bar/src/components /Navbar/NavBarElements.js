@@ -10,3 +10,17 @@ export const Nav = styled.nav`
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
 `;
+
+export const NavLink = styled(Link)`
+    color: #808080;
+    display: flex;
+    alight-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    &.active {
+        color: 'blue';
+    }
+
+
+`;
