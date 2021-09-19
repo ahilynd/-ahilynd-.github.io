@@ -1,4 +1,4 @@
-/* import React from 'react';
+import React from 'react';
 
 const Movies = () => {
     return (
@@ -16,4 +16,3 @@ const Movies = () => {
 };
 
 export default Movies;
-*/

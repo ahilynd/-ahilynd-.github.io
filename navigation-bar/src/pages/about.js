@@ -1,4 +1,4 @@
-/* import React from 'react';
+import React from 'react';
 
 const About = () => {
     return (
@@ -10,10 +10,10 @@ const About = () => {
             height: '100vh'
         }}
         >
-            <h1>About Me</h1>
+            <h1>About</h1>
         </div>
     );
 };
 
 export default About;
-*/
+

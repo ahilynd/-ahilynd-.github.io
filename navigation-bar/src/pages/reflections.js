@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Resources = () => {
+const Reflections = () => {
     return (
         <div
         style={{
@@ -10,9 +10,9 @@ const Resources = () => {
             height: '100vh'
         }}
         >
-            <h1>Tutorials That Have Helped Me Create My Site</h1>
+            <h1>My Reflections</h1>
         </div>
     );
 };
 
-export default Resources; 
+export default Reflections;
