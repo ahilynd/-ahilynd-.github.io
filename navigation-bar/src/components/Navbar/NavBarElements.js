@@ -76,6 +76,6 @@ export const NavBtnLink = styled(Link)`
         color: #01060;
     }
     
-`;
+`
 
 
