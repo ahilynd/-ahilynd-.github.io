@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ahilynd/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/ahilynd/static/js/main.d704412e.chunk.js",
+    "main.js.map": "/ahilynd/static/js/main.d704412e.chunk.js.map",
+    "runtime-main.js": "/ahilynd/static/js/runtime-main.701cf975.js",
+    "runtime-main.js.map": "/ahilynd/static/js/runtime-main.701cf975.js.map",
+    "static/js/2.70fc3c9b.chunk.js": "/ahilynd/static/js/2.70fc3c9b.chunk.js",
+    "static/js/2.70fc3c9b.chunk.js.map": "/ahilynd/static/js/2.70fc3c9b.chunk.js.map",
+    "static/js/3.2fb200e0.chunk.js": "/ahilynd/static/js/3.2fb200e0.chunk.js",
+    "static/js/3.2fb200e0.chunk.js.map": "/ahilynd/static/js/3.2fb200e0.chunk.js.map",
+    "index.html": "/ahilynd/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/ahilynd/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.70fc3c9b.chunk.js.LICENSE.txt": "/ahilynd/static/js/2.70fc3c9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.701cf975.js",
+    "static/js/2.70fc3c9b.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.d704412e.chunk.js"
+  ]
+}
